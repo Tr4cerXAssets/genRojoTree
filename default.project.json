@@ -6,22 +6,28 @@
       "Shared": {
         "$className": "Folder",
         "Services": {
-          "$className": "Folder",
-          "ExampleService": {
-            "$className": "Folder",
-            "ExampleServiceClient": {
-              "$path": "src/services/ExampleService/Client.luau"
-            },
-            "ExampleServiceUtils": {
-              "$path": "src/services/ExampleService/Utils.luau"
-            }
-          }
+          "$className": "Folder"
         },
         "Classes": {
           "$className": "Folder"
         },
         "Modules": {
           "$className": "Folder"
+        },
+        "Features": {
+          "$className": "Folder",
+          "Core": {
+            "$className": "Folder",
+            "UI": {
+              "$className": "Folder",
+              "Sources": {
+                "$className": "Folder",
+                "getDataSource": {
+                  "$path": "src/features/Core/UI/Sources/getDataSource.luau"
+                }
+              }
+            }
+          }
         }
       },
       "Packages": {
@@ -36,13 +42,7 @@
         "$path": "src/startup/Server.server.luau"
       },
       "Services": {
-        "$className": "Folder",
-        "ExampleService": {
-          "$className": "Folder",
-          "ExampleServiceServer": {
-            "$path": "src/services/ExampleService/Server.luau"
-          }
-        }
+        "$className": "Folder"
       },
       "Classes": {
         "$className": "Folder"
